@@ -39,7 +39,7 @@ h6,
     position: fixed;
     display: none;
     right: 30px;
-    bottom: 30px;
+    bottom: 100px;
     z-index: 99;
 }
 
@@ -593,8 +593,11 @@ h6,
 
 
 .line {
-	bottom: 80px;
-	right: -17px;
+	position: fixed;
+    right: 25px;
+    z-index: 99;
+	bottom: 30px;
+	width: 70px;
 }
 .line img {
 	width: 50px;
